@@ -1,0 +1,71 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("bgg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:400px;
+    left:0px;
+   
+}
+.header
+ {
+    height:100px;
+    width:100%; 
+    background-image: url("logooo.jpeg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 25px;
+    font-size: 70px;
+    color:rgb(8, 7, 7);
+    text-shadow: aqua;
+    
+}
+.btn{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+button{
+    color:black;
+    font-weight: bold;
+    height:40px;
+    width:150px;
+    background-image: linear-gradient(rgb(250, 92, 0),rgb(236, 165, 118));
+    border-radius: 10px;
+
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:rgb(15, 15, 14);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:rgb(153, 143, 143);
+
+}
+img{
+    clip-path: circle();
+}
+
